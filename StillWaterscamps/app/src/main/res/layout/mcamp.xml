@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/humm"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="false">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="fill_parent"
+                android:text="INFORMATION SUR LE CAMPS"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:paddingBottom="10px"
+                />
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="fill_parent"
+                android:text="Theme"
+                android:textColor="#333333"
+                android:textSize="15sp"
+                android:paddingTop="30px"
+                />
+            <EditText
+                android:id="@+id/theme"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:editable="true"
+                android:hint="Theme du camps"
+                android:enabled="true"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="fill_parent"
+                android:text="Date de publication"
+                android:textColor="#333333"
+                android:textSize="15sp"
+
+                />
+            <EditText
+                android:id="@+id/datepublication"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:editable="true"
+                android:hint="date de publication"
+                android:enabled="true"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="fill_parent"
+                android:text="Age"
+                android:textColor="#333333"
+                android:textSize="15sp"
+                />
+            <EditText
+                android:id="@+id/age"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:editable="true"
+                android:hint="age"
+                android:enabled="true"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="fill_parent"
+                android:text="Image du camps"
+                android:textColor="#333333"
+                android:textSize="15sp"
+                />
+            <ImageView
+                android:id="@+id/imageducamps"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:editable="true"
+                android:hint="image du camps"
+                android:enabled="true"
+                android:background="@drawable/camp"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

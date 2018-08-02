@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="@drawable/humm"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.excellekitio.stillwaterscamps.Temoignage">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="80dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_width="fill_parent"
+                    android:text="LAISSEZ NOUS UN TEMOIGNAGE"
+                    android:textColor="@color/cardview_light_background"
+                    android:textSize="20sp"
+                    android:paddingBottom="10px"
+                    />
+            </LinearLayout>
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_gravity="center"
+
+                android:id="@+id/card"
+                app:cardBackgroundColor="@android:color/white"
+                app:cardCornerRadius="2dp"
+                app:cardElevation="2dp"
+                >
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:layout_width="fill_parent"
+                        android:text="Titre"
+                        android:textSize="20sp"
+
+                        />
+                    <EditText
+                        android:id="@+id/titre"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:editable="true"
+                        android:hint="titre du temoignage"
+                        android:enabled="true"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:layout_width="fill_parent"
+                        android:text="Contenu"
+                        android:textSize="20sp"
+                        />
+
+                    <EditText
+                        android:id="@+id/contenu"
+                        android:layout_width="fill_parent"
+                        android:layout_height="124dp"
+                        android:clickable="true"
+                        android:editable="true"
+                        android:enabled="true"
+                        android:hint=" Enntrez le Contenu"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <Button
+                android:id="@+id/button_sendTemoignage"
+                android:layout_width="217dp"
+
+                android:layout_height="wrap_content"
+                android:text="Envoyer" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

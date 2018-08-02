@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_benevole"
+        android:orderInCategory="100"
+        android:title="@string/action_benevole"
+        android:icon="@drawable/icon_international"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_sponsor"
+        android:orderInCategory="100"
+        android:title="@string/action_sponsor"
+        android:icon="@drawable/icon_youngfoundation"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_incription"
+        android:orderInCategory="100"
+        android:title="@string/action_inscription"
+        android:icon="@drawable/businessman"
+        app:showAsAction="never" />
+</menu>

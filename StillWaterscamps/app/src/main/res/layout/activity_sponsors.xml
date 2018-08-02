@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.excellekitio.stillwaterscamps.sponsors">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sponsor"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sponsorship"
+                android:textColor="@color/bleu"
+                android:textSize="30sp"
+                android:textAlignment="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+
+Donations made to Still Waters make it possible for young people to attend the camp, who may not have had the opportunity otherwise. If the Lord places it upon your heart, you may want to sponsor a camper or help with some of the facility expenses. You may even want to help an overseas young person make the trip to southern Indiana.
+
+We all know what is waiting for the young people at Still Waters: Worship, excitement, fellowship, rededication, salvation, the Holy Ghost; the opportunities are endless. But even with all the rewards, it might still be difficult for some to attend. Your investment will help to bring another young person to Still Waters.
+"
+                android:textSize="20sp"
+                android:textAlignment="center"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

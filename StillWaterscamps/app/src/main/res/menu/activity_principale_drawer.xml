@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_account_balance_black_24dp"
+            android:title="Acceuil" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_group_black_24dp"
+            android:title="Connexion" />
+        <item
+            android:id="@+id/nav_connexion"
+            android:icon="@drawable/icon_about"
+            android:title="A propos" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_call_black_24dp"
+            android:title="Contactez nous" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_mood_black_24dp"
+            android:title="Temoignages" />
+        <item
+            android:id="@+id/nav_archive"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Archives" />
+    <item
+        android:id="@+id/nav_listcamp"
+        android:icon="@drawable/ic_assignment_black_24dp"
+        android:title="liste des camps" />
+        <item
+            android:id="@+id/nav_faq"
+            android:icon="@drawable/icon_volunteer"
+            android:title="FAQ" />
+        <item
+            android:id="@+id/nav_yf"
+            android:icon="@drawable/ic_wc_black_24dp"
+            android:title="YF" />
+
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share_black_24dp"
+                android:title="partagez l'aplication" />
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/ic_star_border_black_24dp"
+                android:title="notez l'aplication" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Paramètres" />
+        </menu>
+    </item>
+</group>
+</menu>

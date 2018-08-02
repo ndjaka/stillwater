@@ -1,0 +1,290 @@
+<resources>
+    <string-array name="camp_names">
+        <item>participant1</item>
+        <item>participant2</item>
+        <item>participant3</item>
+        <item>participant4</item>
+        <item>participant5</item>
+        <item>participant6</item>
+    </string-array>
+
+    <!-- Pictures -->
+    <array name="camp_pics">
+        <item>@drawable/businessman</item>
+        <item>@drawable/businessman</item>
+        <item>@drawable/businessman</item>
+        <item>@drawable/businessman</item>
+        <item>@drawable/businessman</item>
+        <item>@drawable/businessman</item>
+    </array>
+
+    <string name="app_name"></string>
+    <string name="title_activity_option"></string>
+    <string name="action_modifier">Modifier un camps</string>
+    <string name="action_supprimer">Suprimer un camps</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>s
+    <string name="action_benevole">Bénévole</string>
+    <string name="action_sponsor">Sponsor</string>
+    <string name="action_inscription">Incription international</string>
+    <string name="title_activity_faq">Faq</string>
+
+    <string name="slideshow_on">Slideshow On</string>
+    <string name="apropos">About Still Waters
+The Bible tells us that in the last days, perilous times would come. Today, it seems that whenever we leave our homes, the enemy surrounds us. He is on the roads, on the billboards, at school, at the store, everywhere. And all too often, his target is our young people. Wouldnt it be nice to have a place that is separated from the world that surrounds us every day, a place where we could refresh our spirits, and is completely devoted to drawing us closer to our Lord Jesus Christ?
+
+Still Waters is just that place.
+
+Like the cities of refuge in the Bible, this is where believers can find safety from our enemy. This is a place where the Holy Spirit is welcome to move about as He pleases, and He wont be hindered by outside influences. There are no cell phones, no internet, no television, nothing but a group of Christian young people and a few consecrated counselors to help them along the way
+Within the 100-acre property is a large lake with canoes, kayaks, pontoon boats, WaveRunners, a white-sand beach, and the fishing is excellent. A world-class paintball field and rifle and archery ranges were built on wooded property to the north of the lake. The paintball field looks like a combat zone with a downed jet, military vehicles, bunkers, and lookout towers. The rifle range is equipped with highly accurate .22 rifles, complete with powerful scopes and bench rests. The archery range has compound bows in a variety of sizes, and a few recurves for those who want a little more challenge to their shooting. Of course, each area is closely supervised with at least two chaperones instructing the campers on safety and proper shooting techniques. South of the archery range, are side-by-side, white sand, professional volleyball courts complete with bleachers. Nearby, there is a quarter-mile-long go kart track with fast, state-of-the art karts; race monitors; and bleachers for spectators. Three tractors pull around wagons loaded with campers to each area. There are even mountain bikes available for leisurely rides around the property.
+
+Yes, Still Waters sounds like a lot of fun, but that s just the bait on the hook. The activities allow the campers to relax and fellowship with each other, and bond with other boys and girls, while completely separated from the world.
+
+It provides a setting for the Holy Spirit to take over. After their minds have gone away from the constant pressures that attack them each day, they will have the opportunity to enter into prayer and study of Gods Word. Each morning will start with devotions to the Lord, and the evenings will end with the same. The peaceful times of prayer, the worship in the Chapel, the time spent alone in the shade of a tree while reading their Bibles, the evenings around the bonfire singing praises to the Lord will all be something that stays with them forever.
+
+When they arrive, some will already be consecrated Christians, just desiring a closer walk with the Lord. Others will need physical healing. Some will be struggling and crying out for a life-changing experience. When the campers leave here, they probably won t be talking about playing paintball or catching fish. In fact, it will be the farthest thing from their minds. They will leave with an experience that will last them a lifetime. If they come expecting, ALL of them WILL receive what they are asking for</string>
+
+    <string name="text">Camp Rules Everyone is expected to conduct themselves as becometh a son or daughter of God.
+
+        The following are some guidelines that must be followed.
+
+        o  All attendees are required to attend the various camp activities.
+
+        o  A night curfew “lights out” will be enforced.
+
+        o  The girls dorms and rooms are off-limits to the boys at all times and vice-versa.
+
+        o  Every person is required to conform to the camp schedule, and will not be permitted to leave camp without permission.
+
+        o  Automobiles are unnecessary during the camp period. They will be considered  for the duration.
+
+        o  Boys and girls may not hug nor hold hands.  (Remember you are an example to others.)
+
+        o  No cell phones or any other device that can access the internet.
+
+        o  No cameras or video cameras will be permitted. Clothing: All attendees will be required to wear clothing that becomes a Christian. If you have doubts about the suitability of an item of clothing, please don’t bring it. Specifically the following are prohibited:
+
+        o  Clothing that is too tight, or suggestive
+
+        o  Skirts that have slits above the knee
+
+        o  Shorts
+
+        o  Sheer tops
+
+        o  Tank tops or sleeveless undershirts worn as shirts. Rules so obvious that they should not have to be mentioned!:
+
+        o  The use of tobacco, alcoholic beverages, or drugs of any kind is strictly prohibited
+
+        o  Damages to property and the property of others is the responsibility of the youth doing the damage.
+
+        o  Dormitory and cabins are under the supervision of the chaperones. Sleep and rest are necessary for sound, healthy bodies. We cannot permit a noisy few to keep others awake.
+
+        o  VGR reserves the right to dismiss from camp anyone who does not obey these regulations, or direct instructions from chaperones. (If a camper is dismissed from camp, there will be no refund.) Simply put, we expect those attending the camp to conduct themselves as Christians, in their clothing, language and attitude.</string>
+    <string name="faq">
+        FAQ Frequently Asked Questions
+What if I don t have a YF ID number yet?
+Click Here to find how to get a YF ID number and how to activate your YF account
+
+I have a YF ID number, but I don’t have a password.
+New signees are assigned an ID number and a generic password. Your generic password is your ID number. You will create your unique password after the initial login. If you had a password and just don’t remember your password, you can reset your password on the login page.
+
+I lost my YF card, and I don’t remember my number or my password.
+Send an e-mail to youngfoundations.org telling us that you are trying to register for camp. We’ll get the information to you as quickly as possible.
+
+What is Pre-registration and how do I do it?
+Pre-registration allows you to choose your camp preferences and fill out your Profile and Medical Information pages (Steps 1-3) prior to Registration opening day.
+
+The Pre-registration period will be announced on the Young Foundations’ and Still Waters’ web sites. It will begin anywhere from 1-2 weeks prior to the Registration day and will end once Registration begins.
+
+A Young Foundations ID number and password are required to Pre-register, and your YF account must be activated. To Pre-register for camp, go to the Still Waters web site and log in with your YF ID and password. The Registration page will open. Fill out Steps 1-3, (the sections with the red circles.) When you see three green checkmarks, you have successfully Preregistered. Bear in mind, Pre-registering does not Register you in a camp. You will still have to Register on Registration day to secure your spot.
+
+How do I Register for camp?
+The Registration day and time will be announced on the Young Foundations and Still Waters web sites. Beginning on that day and time or any time thereafter, go to the Still Waters web site and log in with your YF ID number and your password. The Registration page will open.
+
+If you have Pre-registered, you can bypass Steps 1-3 and click Step 4, the payment portion of the program. Once you complete Step 4, the program will automatically do an almost instantaneous search for an opening in a camp based on your preferences. If you get in, you will receive notification stating which camp you are registered for. If you don’t get in, you will receive notification stating that you have been placed on the Waiting List.
+
+If you have not Pre-registered, when you log in after Registration has begun, you will begin at Step 1 and choose your camps. Then you will proceed to Steps 2-3 to update your Profile and Medical Information. Next, you will move on to Step 4 to enter your payment. At that point, the program will do a quick search for an opening in a camp based on your preferences. As stated above, if you get in, you will receive notification. If you don’t get in, you will receive notification that you have been placed on the Waiting List.
+
+How do I know if I’m registered in a camp?
+Immediately upon successful online registration, you will receive a confirmation e-mail and a receipt that you can print. This e-mail will contain additional information and downloads about your camp. Keep this e-mail for future reference. If you have a question about your status, please send an e-mail to office@stillwaterscamp.org .
+
+How do I know if the camp is full?
+The registration program will tell you if the camp is full when you try to register for a camp.
+
+How do I get on the Waiting List?
+When you log in to the Still Waters web site, you will see a note that says all camps are full. Fill out steps 1-3 and click Step 4. The program will automatically add you to the Waiting List. You will receive a confirmation e-mail stating this information.
+
+I put my name on a waiting list, does that mean I’m registered in that camp?
+No, you are not registered in that camp yet.
+
+I’m on a waiting list. How will I know if there is an opening for me?
+Still Waters staff will call you. If we can’t contact you by phone, we will send you an e-mail, but we can’t hold the spot open for very long. So, make sure your phone number and email address are correct in your YF Profile, and be sure to check your e-mail often!
+
+Can I attend all camps in my age group?
+Because of a limited number of openings, you can only register for one camp per year. You will be given an opportunity during the on-line registration process to be placed on a waiting list for future camps.
+
+Who will be allowed to attend camp?
+Only those who have registered may attend camp. Parents, siblings, friends, or other non-registered guests will not be permitted to attend any portion of the camp.
+
+How old will the attendees be?
+Ages will vary. The age range of each camp will be announced with the announcement of the camp.
+
+Do boys and girls attend the same camps?
+Yes. The girls living quarters and the boys living quarters are in different areas of the campground. All living quarters are chaperoned. Boys cannot go in the girls living quarters and girls are not allowed in the boys living quarters. Boundary lines during showers and after lights-out are supervised and rules are strictly enforced. Campers are closely watched and all behavior is monitored. Inappropriate behavior and displays of affection between boys and girls are not tolerated.
+
+Who will chaperone the youth?
+Young Foundations, under the leadership of Brother Joseph, will choose all counselors, chaperones, drivers, speakers, and other special guests. If you are interested in volunteering, you can return to the home page and click the "Volunteer" button.
+
+I will be driving my child to camp from out of town. What should I do?
+You can drop off your child at the camp (Map) during the registration time frame. If you need help finding a local hotel to stay at, we would be more than happy to assist you in finding accommodations. Just send an e-mail to office@stillwaterscamp.org.
+
+How will transportation work?
+Older campers, who are able to drive themselves to camp, will be given a parking spot on the campground. Campers will not be permitted to leave the campground at any time. Those arriving by plane and need shuttle service should advise Young Foundations staff at office@stillwaterscamp.org of their scheduled arrival time as soon as possible. We will pick up campers at the airport at pre-designated times only. If the campers flight does not coincide with our pickup times, the camper will be responsible for arranging transportation from the airport to the campgrounds.
+
+We will pick up/drop off at Louisville International Airport in Louisville, Kentucky, at the following times only if requested. Please email office@stillwaterscamp.org or call 812-889-3333, to request and reserve your seat on the Still Waters Shuttle.
+
+Mondays Pick Up:
+
+11 am EDT at Louisville International Airport, Louisville, Kentucky
+2 pm EDT at Louisville International Airport, Louisville, Kentucky
+Fridays Drop Off:
+
+5 pm EDT at Louisville International Airport, Louisville, Kentucky
+I’m flying in. Where is the closest airport?
+The closest airport is Louisville International Airport in Louisville, Kentucky.
+
+Can someone pick me up at the airport and take me back?
+Yes. Call or e-mail Still Waters as soon as possible to reserve your seat on the Still Waters van. We will pick up campers up at 11 a.m.  2 p.m. on the first day of each camp. On the closing day of camp, we will get campers back to the airport by 5 p.m.
+
+We will pick up and deliver campers at the airport at these pre-designated times only. If the campers flight does not coincide with our itinerary, the camper will be responsible for arranging transportation from the airport to the campground.
+
+Can I expect to hear from my child during the camp?
+Probably not. Guests will be having so much fun that they probably won t have time to call! We do not allow cell phones at camp, so any call must be made from the camp office. If your child gets homesick, except for extreme circumstances, we will discourage a phone call home; oftentimes, it will make it worse. We will do all we can to encourage your child to stay at camp. Your child will have access to a phone in an emergency. If you must contact your child, you can contact the camp office at 812-889-3333. If you need information prior to camp, please e-mail office@stillwaterscamp.org.
+
+What should we pack?
+One duffle or suitcase 28" x 21" (maximum size)
+Quiet Time Journal
+Two changes of clothing per day is recommended:
+One set per day for daytime activities (paintball, jet ski, etc.) and one set for evening activities (supper, bonfire).
+Nicer casual clothing for two worship services (See FAQ - "How Should We Dress")
+Bible
+Light jacket for cool mornings and evenings
+Rain coat/poncho
+Sneakers (shoes to "play" in)
+Shoes for church
+Water shoes for beach
+Flip-flops for the shower
+Toiletries (Shampoo and shower soap are provided)
+Toothbrush and toothpaste
+Shaving kit
+Sunglasses
+Insect repellant
+Sunscreen
+Swimsuit (See FAQ - "How Should We Dress")
+Beach towel
+Hair towel (Bath towels and cloths are provided)
+Musical instruments
+Cash for vending machines and camp gift shop
+Snacks (no peanut products)
+Extra pillow, blanket, or sleeping bag (We supply a pillow and a blanket)
+You may want to label your clothing and belongings.
+What should we NOT bring to camp?
+We suggest campers not bring expensive clothing or other expensive items to camp.
+Cell phones are not permitted. (strictly enforced)
+No electronics, laptops, iPods, tablets, etc.
+No device that can access the internet.
+Questionable clothing
+Gum
+Peanut products
+Pets
+Jewelry
+Why cant my child bring a cell phone?
+Cell phones can be very distracting and interruptive during activities. We find that most campers actually appreciate the "vacation" from their phones! Most of our staff carries their cell phones for emergencies. Your child will have access to a phone if a need arises.
+
+How should we dress?
+"Hes got to be Lord over your dressing too."
+BROTHER BRANHAM, 59-1128, DOOR TO THE HEART
+We all desire to please God and strive to keep His Word. In keeping with Gods Word, we have set a very strict dress code. We have lots of fun things that youre going to want to do, such as: canoeing, kayaking, zip-lining, bike riding, volleyball, swimming, go-karting, paintball, and jet skiing! Please choose your clothing prayerfully and bring modest clothing appropriate for all activities.
+
+Girls:
+
+The dress code that we have put into place for our young sisters while they are at Still Waters is not only for their modesty, but to also train them to recognize how certain clothing, although innocent enough, can be a trick. We strive to be as far away from the world as possible and be ladylike and godly, as Brother Branham has taught us.
+
+Since you’re going to be so active, your skirts should be longer and looser and your necklines higher and shirttails longer than what you may wear for your daily activities at home. Splits in skirts must be way below the knee. Please bring at least three, ankle-length, denim skirts for activities that are very full in the hips and the legs-- not too straight and/or restrictive. Your skirt should allow you to climb in and out of boats, ride a bicycle, and sit astride a jet ski – modestly, with your knees easily covered. Here is an example of a good camp skirt. If you play paint ball, you’ll be running, climbing towers, jumping over and diving in bunkers, and dodging paint balls! So, remember also to bring a skirt that can get paint splattered!
+
+Here is a list of some acceptable/not acceptable clothing:
+No fitted or semi-fitted tee shirts. Tees should be loose fitting. No tight-fighting or cropped tie cardigans. Brother Branham said women wearing tight clothing looked like a “skinned wiener”, so, of course, tight-fitting clothing is not allowed.
+Sleeveless and cap-sleeved shirts are not permitted. This is a good sleeve length.
+Skimpy undershirts and tank tops should not be seen through your top layer shirt. If your base layer/undershirt shows through, it must be modest and provide good coverage. A cap-sleeved, high crew-neck tee works best as a base layer. Here is an example of a base layer shirt that gives good coverage and works well for most people.
+No lace. We’re not saying all lace is wrong, but it’s not for Still Waters as lace can be worn in a way that is immodest.
+No graphic tees (shirts with pictures and writing on them) at all except for Young Foundations, Still Waters, and your church camp tee shirts.
+No leggings.
+Please, do not bring your jewelry to camp. You may wear an inexpensive watch. No Fitbits or Apple watches, etc.
+No pajamas. You’ll be sleeping in a room with other girls. Please bring a comfy (knit) skirt and T-shirt or a modest, below-knee-length gown and a modest, below-knee-length robe. When asked about pajamas, Brother Branham told us this:
+"Im just going to let you do the deciding of that. You shouldnt be parading around before people with them on; I--I know that. So that way it would be, but in the--in going to bed I--I--I dont know. Im going to have to back up on that one too. I told you Id be honest if I didnt know. Im not going to put my own thought about it (All right.), unless you want my own thought. If you want that, I will tell you. See? Now remember, it isnt it--it--this--this could be a million miles wrong. I think itd look nice to have a nightgown on. But--but if you--but if you... But thats just up to you. Now, I cant--I cant tell you that, cause I couldnt back it up. Now, thats--thats--thats me, not Him, remember. See?"
+BROTHER BRANHAM, 64-0830M QUESTIONS AND ANSWERS #3
+Modest swim dresses, which we provide, will be required for all the sisters who want to swim in our private beach area. The dress will be worn over your swimsuit. The swim dress can only be worn in the water and at the beach during designated girls swim sessions. Girls will have to change back in to their regular clothes when their swim session is over. There will be no exceptions to these rules.
+
+The sister chaperones are on hand to help you protect your modesty while youre here. If you have a question about a certain garment, please feel free to ask the sister chaperones if the clothing is appropriate. If at any time the chaperones determine that your clothing is inappropriate for an activity, a change of clothing will be required. If you cannot perform a specific activity in a modest fashion, you will not be permitted to participate in that activity. We will have extra shirts and skirts on hand if needed.
+
+Boys:
+
+We expect our young men to bring only clothing that is becoming to sons of God. Please do not bring any jewelry (bracelets, necklaces, etc.) Graphic tees (tees with pictures and/or writing) cannot be worn at all except for Young Foundations, Still Waters, or your church camp shirts. All shirts should have sleeves - no tank tops or muscle shirts. And, shirttails must be long enough to cover you when playing volleyball or paintball. Please do not bring saggy jeans or short pants. Bring pajamas or some type of sleeping attire.
+
+The boys should bring swim shorts. They will have to change back in to long pants and a shirt when their swim session is over. There will be no exceptions to these rules.
+
+If at any time, our chaperones feel that an article of clothing is inappropriate, a change of clothing will be required.
+
+Worship Services:
+
+For worship services, casual clothing is acceptable (khakis and nice denim), but, please, no shirts or jackets with any writing or graphics on them. Any Young Foundations or Still Waters shirts are acceptable, excluding the paintball shirt.
+
+"God dont like compromisers. God dont want His Church to look like the world. He dont want it to act like the world. He doesnt want to have anything to do with the world, only to preach the Gospel to the world and to call those forth."
+BROTHER BRANHAM, 60-0607 HEARING, RECEIVING, AND ACTING
+How will the swimming activities be conducted?
+During scheduled swim times, all males and females will be completely and totally segregated. During scheduled swim times, all opposite genders (including all staff) will be busy participating in other activities in the game area of the camp which is located in a secluded wooded area on the opposite side of the campground. Boundary line rules will be strictly enforced during swim times. Camp staff will closely guard and patrol all boundaries to ensure complete privacy for the swimmers.
+
+Male lifeguards will be on duty when the boys swim, and female lifeguards will be on duty when the girls swim.
+
+All campers participating in aquatic activities such as canoeing, kayaking, paddle boating, and swimming will be required to wear a life vest.
+
+What about meals?
+We will provide breakfast, lunch, and supper (when applicable.) Drinks are included with meals and free bottled water is available and encouraged at all times. You are permitted to send snacks if you like, but we ask that you do not send any peanut products as many people are allergic to peanuts. Your child may want to purchase snacks, soft drinks, and/or sports drinks from our vending machines.
+
+What if my child has food allergies?
+All food allergies must be noted on the Health History form which you will submit in advance. We will do everything we can to accommodate your childs needs. Our Health Supervisor may need to contact you before the camp starts.
+
+My child requires medications. Can he/she still go to camp?
+Most likely, yes. Our Health Supervisor will review your childs Medical History form which you will fill out during the online registration process. The age of the child and the type of medications will be taken into consideration. All campers who require daily medications should bring their medications in the original containers. Please put medication bottles in a Ziploc bag and write your childs name on the bag. Please do not pack the medications in your childs suitcase as medications will be reviewed by the Health Supervisor at check-in. Again, the Health Supervisor may need to call you for further information.
+
+What if my child is injured or becomes sick during a camp session?
+Each camper is required to have provided a signed medical release and waiver prior to camp. If your child gets sick or injured, we will make every effort to contact you or the designated emergency contact person as soon as possible. Our Health Supervisor is a trained paramedic. He will assess your childs condition and make a decision as to how to proceed. Our local EMS and hospital will be on call during all camp sessions. If necessary, we will transport or have your child transported to an appropriate medical facility. The closest medical facility is less than 15 minutes from the campground. Parents will be responsible for any and all fees associated with any required medical treatments.
+
+What if we have to cancel?
+If you have to cancel, please email office@stillwaterscamp.org as soon as possible.
+    </string>
+    <string name="title_activity_contenu">contenu</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_principale">Principale</string>
+
+    <string-array name="nom">
+        <item>nom1</item>
+        <item>nom2</item>
+        <item>nom3</item>
+        <item>nom4</item>
+        <item>nom5</item>
+        <item>nom6</item>
+    </string-array>
+    <string-array name="camp_contenu">
+        <item>contenu1</item>
+        <item>contenu2</item>
+        <item>contenu3</item>
+        <item>contenu4</item>
+        <item>contenu5</item>
+        <item>contenu6</item>
+    </string-array>
+
+
+</resources>

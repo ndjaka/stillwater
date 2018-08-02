@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.excellekitio.stillwaterscamps.incriptioninternationnale">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/campv"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="International Registration"
+                android:textColor="@color/bleu"
+                android:textSize="30sp"
+                android:textAlignment="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A lot of you young believers from Africa, South America, Australia, and Asia might get used to seeing only US, CAN, and EUR when it comes to YF camps and functions. Well, now's your chance to take part! We're formally opening the doors to all youth outside of the US, CAN, and EUR, and at least 18 years of age, to join us at one of our YF camps this year. For those who are able to come, we would love to have you! You can contact VGR Still Waters staff below for more details and any questions, but hurry, spaces are limited…"
+                android:textSize="20sp"
+                android:textAlignment="center"/>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:paddingLeft="40dp"
+                android:paddingRight="30dp">
+                <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    app:cardBackgroundColor="@color/cardview_light_background"
+                    app:cardCornerRadius="2dp"
+                    app:cardElevation="2dp"
+                    >
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:text="
+                            MAILING ADDRESS
+                            Voice Of God Recordings
+                            ATTN: Still Waters
+                            PO Box 950
+                            Jeffersonville, IN 47131
+        "
+                    android:textColor="@color/bleu"
+                    android:textSize="10sp"
+                    android:textAlignment="center"/>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    app:cardBackgroundColor="@color/cardview_light_background"
+                    app:cardCornerRadius="2dp"
+                    app:cardElevation="2dp"
+                    >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="
+
+                                LOCATION
+                                Still Waters
+                                4930 South Pleasant Ridge Road
+                                Lexington, Indiana 47138
+        "
+                    android:textColor="@color/bleu"
+                    android:textSize="10sp"
+                    android:textAlignment="center"/>
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    app:cardBackgroundColor="@color/cardview_light_background"
+                    app:cardCornerRadius="2dp"
+                    app:cardElevation="2dp"
+                    >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="
+                        CONTACT INFO
+                        Email: office@stillwaterscamp.org
+                        Phone: 812-256-1177
+                        Fax: 812-256-6187
+"
+                    android:textColor="@color/bleu"
+                    android:textSize="10sp"
+                    android:textAlignment="center"/>
+            </android.support.v7.widget.CardView>
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

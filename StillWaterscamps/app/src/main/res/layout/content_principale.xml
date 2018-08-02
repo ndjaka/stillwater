@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/humm"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.excellekitio.stillwaterscamps.Principale"
+    tools:showIn="@layout/app_bar_principale">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:background="@color/vie"
+                android:layout_marginBottom="@dimen/activity_horizontal_margin">
+                <ViewFlipper
+                    android:id="@+id/image_view_flipper"
+                    android:layout_width="370dp"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/image_one"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/camp" />
+                    <ImageView
+                        android:id="@+id/image_two"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/campi" />
+                    <ImageView
+                        android:id="@+id/image_three"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/camppp" />
+                    <ImageView
+                        android:id="@+id/image_four"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/debut" />
+                </ViewFlipper>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="50dp"
+                android:layout_width="fill_parent"
+                android:layout_margin="@dimen/activity_vertical_margin"
+                android:orientation="vertical"
+                >
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/idbtn"
+                    android:text="Interviews"
+                    android:background="@color/bleu"
+                    android:drawableLeft="@drawable/ic_videocam_black_24dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="20dp"
+
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="50dp"
+                android:layout_width="match_parent"
+                android:layout_margin="@dimen/activity_vertical_margin"
+                android:paddingTop="3px"
+                >
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/idbtng"
+                    android:text="Galerie"
+                    android:background="@color/vert"
+                    android:drawableLeft="@drawable/ic_menu_gallery"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="20dp"
+                    android:layout_marginTop="2dp"
+
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="40dp"
+                android:paddingRight="20dp">
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/calendrier"
+                    android:text="Calendrier"
+                    android:background="@drawable/imageed"
+                    android:layout_marginRight="@dimen/activity_vertical_margin"
+                    android:layout_marginLeft="@dimen/activity_vertical_margin" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/registre"
+                    android:text="S'incrire"
+                    android:background="@drawable/imageep"
+                    android:layout_marginRight="@dimen/activity_vertical_margin"
+                    android:layout_marginLeft="@dimen/activity_vertical_margin"
+                    android:onClick="ouvrirregistre" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="40dp"
+                android:paddingRight="20dp"
+
+                >
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/regle"
+                    android:text="Régles"
+                    android:background="@drawable/imageet"
+                    android:layout_marginRight="@dimen/activity_vertical_margin"
+                    android:layout_marginLeft="@dimen/activity_vertical_margin"
+                    android:onClick="ouvrirregle"
+                    />
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/medicament"
+                    android:text="Médicaments"
+                    android:background="@drawable/imageeq"
+                    android:layout_marginRight="@dimen/activity_vertical_margin"
+                    android:layout_marginLeft="@dimen/activity_vertical_margin"
+                    android:onClick="ouvrirmedicale"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_height="50dp"
+                android:layout_width="match_parent"
+                android:layout_margin="@dimen/activity_vertical_margin"
+                android:paddingTop="3px"
+                >
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sponsor"
+                    android:text="Sponsor"
+                    android:background="@color/bleu"
+                    android:drawableLeft="@drawable/icon_youngfoundation"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="20dp"
+                    android:textColor="@color/cardview_light_background"
+                    android:layout_marginTop="2dp"
+
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="50dp"
+                android:layout_width="match_parent"
+                android:layout_margin="@dimen/activity_vertical_margin"
+                android:paddingTop="3px"
+                >
+               <Button
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                android:id="@+id/benevole"
+                android:text="Benevole"
+                android:background="@color/bleu"
+                android:textColor="@color/cardview_light_background"
+                android:drawableLeft="@drawable/icon_international"
+                android:paddingLeft="10dp"
+                android:paddingRight="20dp"
+                android:layout_marginTop="2dp"
+
+                />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="50dp"
+                android:layout_width="match_parent"
+                android:layout_margin="@dimen/activity_vertical_margin"
+                android:paddingTop="3px"
+                >
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/incriptioni"
+                    android:text="Incription internationnale"
+                    android:textColor="@color/cardview_light_background"
+                    android:background="@color/bleu"
+                    android:drawableLeft="@drawable/businessman"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="20dp"
+                    android:layout_marginTop="2dp"
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_height="50dp"
+                android:layout_width="match_parent"
+                android:layout_margin="@dimen/activity_vertical_margin"
+                android:paddingTop="3px"
+                >
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/temoignage"
+                    android:text="Temoignage"
+                    android:textColor="@color/cardview_light_background"
+                    android:background="@color/bleu"
+                    android:drawableLeft="@drawable/businessman"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="20dp"
+                    android:layout_marginTop="2dp"
+
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+
+
+                >
+
+
+            </LinearLayout>
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+
+                app:cardBackgroundColor="@color/vie"
+                app:cardCornerRadius="2dp"
+                app:cardElevation="2dp"
+                >
+                <LinearLayout
+                    android:layout_height="200dp"
+                    android:layout_width="match_parent"
+                    android:layout_margin="@dimen/activity_vertical_margin"
+                    >
+                    <ImageView
+                        android:layout_height="fill_parent"
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/article"
+                        android:layout_gravity="center"
+                        android:onClick="voirarticle"
+                        >
+
+                    </ImageView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Camps1"
+                        />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/articles"
+                android:text="More Articles"
+                android:textColor="@color/cardview_light_background"
+                android:background="@color/vie"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

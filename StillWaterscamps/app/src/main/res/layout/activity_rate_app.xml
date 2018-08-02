@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/humm"
+    tools:context="com.example.excellekitio.stillwaterscamps.RateApp">
+
+    <TextView
+        android:id="@+id/textViewrateapp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Notez notre application"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="30sp" />
+
+    <RatingBar
+        android:id="@+id/rbrateapp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewrateapp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="63dp"
+        android:layout_marginTop="90dp"
+        android:numStars="5"
+        android:stepSize="1.0" />
+
+</RelativeLayout>
+

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.excellekitio.stillwaterscamps">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Stillwatercamp"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Temoignage" />
+        <activity android:name=".MEDIA.videocamp" />
+        <activity android:name=".Apropos" />
+        <activity android:name=".Share" />
+        <activity android:name=".RateApp" />
+        <activity android:name=".Connexion" />
+        <activity android:name=".Rules" />
+        <activity android:name=".ADMINISTRATEUR.CreerCamp" />
+        <activity android:name=".FAQ" />
+        <activity android:name=".MEDIA.galerievideo" />
+        <activity android:name=".Calendier" />
+        <activity android:name=".ADMINISTRATEUR.listedesartcilesparticipant"
+            android:label="LISTES DES PARTICIPANTS"/>
+        <activity android:name=".ADMINISTRATEUR.listedesarticles" />
+        <activity
+            android:name=".MEDIA.Image"
+            android:label="@string/app_name" />
+        <activity android:name=".MEDIA.Gallery" />
+        <activity android:name=".MEDIA.SingleViewActivity" />
+        <activity android:name=".ADMINISTRATEUR.vsi" />
+        <activity
+            android:name=".MEDIA.Galerieprimcipale"
+            android:label="@string/app_name" />
+        <activity android:name=".sponsors" />
+        <activity android:name=".incriptioninternationnale" />
+        <activity android:name=".CONTEDUNARTICLE.article" />
+        <activity android:name=".ADMINISTRATEUR.modifiercamp" />
+        <activity android:name=".ADMINISTRATEUR.supprimercamp" />
+        <activity android:name=".publication" />
+        <activity
+            android:name=".Principale"
+            android:label="stillwatercamp"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".conctater" android:label="nous contacter"/>
+        <activity android:name=".medicalpdf" android:label="suivis medical"/>
+        <activity android:name=".compte" android:label="creation du compte" />
+        <activity android:name=".benevole" android:label="creer compte volunter"/>
+        <activity android:name=".temoignage.temoignagelist" android:label="list des temoignages" />
+        <activity android:name=".NotificationView" />
+        <activity android:name=".Partipants.partipants" />
+        <activity android:name=".Activity_manager"  />
+        <activity android:name=".valider_demande_Activity"
+            android:label="validation des demandes"/>
+        <activity
+                  android:name=".MEDIA.galerievideoessam"
+                  android:label="Album video"/>
+        <activity android:name=".ADMINISTRATEUR.vsi2" android:label="Uploader Media"/>
+        <activity android:name=".MEDIA.GalerieprincipaleEssam"  android:label="Album photos "/>
+        <activity android:name=".MEDIA.Galleryessam"  android:label="Galerie photos"/>
+        <activity android:name=".MEDIA.videoparticipantsEssam" android:label="Galerie video"></activity>
+
+
+
+
+    </application>
+
+</manifest>

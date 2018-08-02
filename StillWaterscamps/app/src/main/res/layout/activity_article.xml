@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".CONTEDUNARTICLE.article">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/article"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Still Waters 2017 Camps"
+                android:textColor="@color/bleu"
+                android:textSize="30sp"
+                android:textAlignment="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="The moment we’ve all been waiting for is soon to arrive!
+
+Spring is almost here!!! In a little over a month from now, the seasons will officially change and we’ll be on our way to new and more vibrant things. It’s always an exciting time of year as the days begin to lengthen, the grass begins to transform and take on the rich color of green life, trees begin to bud, and new life is born throughout the animal kingdom.
+
+But there’s something else that brings a touch of excitement this time of year...STILL WATERS CAMP REGISTRATION!!!
+
+Camp registration is scheduled for Saturday, Feb 25th, at 10 a.m. Jeffersonville time!
+
+The dates have been chosen, and beginning RIGHT NOW you can start pre-registering for your Still Waters Camp of choice!
+
+    Camp 1: June 5-9, Ages 16-28
+    Camp 2: June 19-23, Ages 16-28
+    Camp 3: July 10-14, Ages 13-15
+    Camp 4: August 7-11, Ages 16-28
+
+We’ve also been telling you for years that there are perks to earning YF rewards points. Well, now is your time to be rewarded for dedicating so much of your time to this Message! Those registering for an older camp with 2500 or more lifetime points and those registering for the younger camp with 2000 or more lifetime points will have special access to Early Bird Registration! All those who fall in these exclusive points categories will be able to log in and register 24 hours early, on Friday, February 24th at 10:00 am Jeffersonville time.
+
+As a little refresher:
+
+Just like in past years, you MUST have an activated YF account in order to register for a SW camp. If you DO NOT have a YF account, please go to our Signup Page to create one. If you are signed up but do not remember your ID#, please send us an email at yf@youngfoundations.org and we will send you your ID# as soon as possible. If needed, you can reset your password on the login page by selecting 'forgot password' and typing in your ID#. Also note that re-signing up in YF does not tell us that you need an ID#, it simply updates your current information.
+
+This year, we will be giving you the opportunity to pre-register again. It worked out great last year, and really speeds up the registration process on the day of. You will start by updating your Still Waters contact information and medical history. If you update prior to the registration date on Feb 25th, your updated information will automatically pre-populate when you login to register for camp. This will get you through the registration process much more quickly. If you do not update prior to registration, you will have to key in all of your contact information and answer all of the medical history questions before moving on to complete the form, which will slow you down considerably. It's very important that you know; updating your information DOES NOT “REGISTER” YOU for camp and will not put you on a waiting list. You will still have to register on Feb. 25th to try to get in a camp. This will simply allow for a faster, smoother process.
+
+The other BIG pre-registration step is, allowing you to submit your camp date choices. After you've updated your contact information and medical history, the 16-28 youth will be able to submit their first choice, second choice and third choicecamp preferences from Camps #1, #2, and #4. These preferences will be saved for the day of registration. On Registration Day, your first choice camp will automatically be selected after you complete the payment page. If your first choice camp is already filled, the program will automatically add your name to that camp’s waiting list. The program will proceed and repeat to your second or third choice.
+
+If this is your first time to try and register for a SW camp, please read all FAQs on the Still Waters website to make sure you are familiar with the system. This will answer most of your questions, including questions on international registration. For any other questions concerning camp, please email office@stillwaterscamp.org.
+
+Use the link below to update and pre-select your camps:
+
+Still Waters Profile Page
+
+As always, we are very excited for what the Lord has in store this year, and we know you are too. We will be posting more camp details in the days to come, so be sure to keep a look-out on the websites! Get ready, start your planning, camp will be here before you know it!
+
+Until then, stay prayed up and anticipating great things!"/>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
